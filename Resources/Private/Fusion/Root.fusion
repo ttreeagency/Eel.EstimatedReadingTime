@@ -1,0 +1,5 @@
+prototype(Ttree.Eel.EstimatedReadingTime:Get) < prototype(Neos.Neos:ContentCollection) {
+	nodePath = 'main'
+
+	@process.estimate = ${EstimatedReadingTime.get(value)}
+}

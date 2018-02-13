@@ -1,0 +1,18 @@
+Ttree:
+
+  Eel:
+
+    EstimatedReadingTime:
+      wordPerMinutes:
+        '*': 200
+
+Neos:
+
+  Fusion:
+    defaultContext:
+      EstimatedReadingTime: Ttree\Eel\EstimatedReadingTime\EstimatedReadingTimeHelper
+
+  Neos:
+    fusion:
+      autoInclude:
+        Ttree.Eel.EstimatedReadingTime: true
